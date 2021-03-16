@@ -6,7 +6,7 @@ def computepay():
     if h<=40:
         pay=h*r
     elif h>40:
-         d=h-40
+         d=h-35
     pay=(40*r)+(d*(r*1.5))
     print('Pay',pay)
     return pay
